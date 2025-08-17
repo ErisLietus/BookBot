@@ -16,12 +16,12 @@ def main():
     word = word_count(sys.argv[1])
         
     print("============ BOOKBOT ============")
-    print(f"Analyzing book found at {sys.argv}...")
+    print(f"Analyzing book found at {sys.argv[1]}...")
     print("----------- Word Count ----------")
     print(f"Found {word} total words") 
     print("--------- Character Count -------")
     for num in number:
-        print(f"{num["char"]}: {num["num"]}")
+        print(f"{num['char']}: {num['num']}")
 
     print ("""============= END =============== """)
     
